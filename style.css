@@ -1,0 +1,158 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashboard{
+    position: relative;
+    z-index: 2;;
+    background-color: skyblue;
+    grid-row: 1/4;
+    padding: 20px;
+    box-shadow: 5px 0px 10px 0px lightgray;
+}
+
+.dashboard-logo{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    font-size: 35px;
+}
+
+div.dashboard ul{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+div.dashboard ul,div.dashboard li,div.dashboard a{
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    grid-column: 1/2;
+    margin-bottom: 10px;
+}
+
+.header{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    box-shadow: 5px 0px 10px 0px lightgray;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 8fr 1fr 2fr;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.menu button{
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+}
+div.menu form{
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.menu form{
+    display: flex;
+    grid-template-columns: 50px minmax(100px, 50%);
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+div.menu form input{
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 8px;
+    width: 50%;
+}
+.bell-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bell-icon i{
+    font-size: 25px;
+}
+
+.mini-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.profile-pic{
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 10px
+}
+
+.project-option-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.profile{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile div i{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.big-profile{
+    margin-left: 30px;
+}
+
+.project-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-buttons button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.article-container{
+}
+
+.side-section{
+}
