@@ -8,7 +8,7 @@ body{
 .dashboard{
     position: relative;
     z-index: 2;;
-    background-color: skyblue;
+    background-color: rgb(25,146,212);
     grid-row: 1/4;
     padding: 20px;
     box-shadow: 5px 0px 10px 0px lightgray;
@@ -75,7 +75,7 @@ div.menu form{
 }
 
 div.menu form input{
-    background-color: lightgray;
+    background-color: rgb(226,232,240);
     border: none;
     border-radius: 20px;
     color: black;
@@ -102,7 +102,7 @@ div.menu form input{
 
 .profile-pic{
     font-size: 20px;
-    background-color: lightgray;
+    background-color: rgb(226,232,240);
     border-radius: 50%;
     padding: 10px
 }
@@ -138,7 +138,7 @@ div.menu form input{
 }
 
 .project-buttons button{
-    background-color: skyblue;
+    background-color: rgb(25,146,212);
     border: none;
     border-radius: 20px;
     padding: 5px 25px;
@@ -149,10 +149,53 @@ div.menu form input{
 .card-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 25px;
+    background-color: rgb(226,232,240);
+    gap: 20px;
 }
 
 .article-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 10px;
+}
+.article div p, .article div h2{
+    margin: 0px;
+}
+.article{
+    display: grid;
+    grid-template-rows: auto minmax(80px, auto);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 25vw;
+    border-left: 7px solid rgb(240,180,41);
+}
+
+.article div p{
+    color: rgb(148,148,148);
+}
+.article div h2{
+    font-weight: bold;
+}
+
+.article-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.article-icons img{
+    width: 3vw;
+    height: 3vw;
+}
+.article-icons button{
+    background-color: inherit;
+    border: none;
 }
 
 .side-section{
-}
+}   
