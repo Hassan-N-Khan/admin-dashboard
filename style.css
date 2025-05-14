@@ -22,6 +22,22 @@ body{
     font-size: 35px;
 }
 
+.dashboard-logo h1{
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.dashboard-logo i{
+    font-size: 40px;
+    color: white;
+}
+
+.button-message{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
 div.dashboard ul{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -32,7 +48,7 @@ div.dashboard ul,div.dashboard li,div.dashboard a{
     list-style: none;
     padding: 0px;
     text-decoration: none;
-    color: black;
+    color:white;
     grid-column: 1/2;
     margin-bottom: 10px;
 }
@@ -189,8 +205,8 @@ div.menu form input{
 }
 
 .article-icons img{
-    width: 3vw;
-    height: 3vw;
+    width: 40px;
+    height: auto;
 }
 .article-icons button{
     background-color: inherit;
@@ -198,4 +214,39 @@ div.menu form input{
 }
 
 .side-section{
-}   
+    margin-right: 20px;;
+}
+
+.side-card{
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    gap: 20px;
+}
+
+.side-card div h4, .side-card p{
+    margin: 0px;
+}
+
+.side-card div img{
+    width: 40px;
+    height: 40px;
+}
+
+.trending{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.side-card div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:0px !important;
+}
