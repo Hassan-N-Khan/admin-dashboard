@@ -125,7 +125,7 @@ div.menu form input{
 
 .project-option-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 8fr 3fr;
     gap: 10px;
     margin-left: 25px;
 }
